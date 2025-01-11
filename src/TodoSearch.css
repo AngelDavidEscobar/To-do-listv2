@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+.TodoSearch {
+    background: #F9FBFC;
+    border-radius: 2px;
+    border: 2px solid  #e5e5e5;
+    margin: 0 48px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'UnifrakturMaguntia', serif;
+    font-weight: 400;
+    color: #1E1E1F;
+    box-shadow: 0px 5px 30px #8b0000;
+  }
+  
+  .TodoSearch::placeholder {
+    color: #A5A5A5;
+    font-family: 'UnifrakturMaguntia', serif;
+    font-weight: 400;
+  }
+  
+  .TodoSearch:focus {
+    outline-color: #61DAFA;
+  }
