@@ -50,3 +50,15 @@ function useLocalStorage(itemName, initialValue){
 }
 
 export {useLocalStorage}
+
+/* localStorage.removeItem('TODOS_V1');
+
+ const defaultTodos = [
+   { text: 'Besar a mike ', completed: true },
+   { text: 'Sacar a blooks del plan familiar', completed: false },
+   { text: 'Curtir a coco', completed: false },
+   { text: 'Meterle el pene a david ', completed: false },
+   { text: 'Quitarle la virginidad a Figi ', completed: false },
+];;
+
+localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos)); */
