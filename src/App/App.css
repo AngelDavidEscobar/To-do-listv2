@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 body {
     margin: 0;
     display: flex;
@@ -6,11 +7,14 @@ body {
     height: 100vh;         
     background-color: #1a1a1a;
     color: #e5e5e5;
-    font-family: 'UnifrakturMaguntia', serif;
+    font-family: "Creepster", serif;
+   
 }
 
 
 .container {
-    text-align: center;   
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
