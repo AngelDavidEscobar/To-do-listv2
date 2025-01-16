@@ -1,5 +1,5 @@
 
-import { TodoIcon } from "./TodoIcon";
+import { TodoIcon } from "./index";
 
 function DeleteIcon({ onDelete }){
     return(
