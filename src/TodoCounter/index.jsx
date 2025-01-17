@@ -10,11 +10,17 @@ import { TodoContext } from '../TodoContext'
 
 
     return (
-  
-       <h1>
-         Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> Todos
-       </h1>
-    )}
+      <>
+        {completedTodos === totalTodos ? (
+          <h1>No tienes Todos por hacer</h1>
+        ) : (
+          <h1>
+            Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> Todos
+          </h1>
+        )}
+      </>
+      );
+    }
 
 
 export { TodoCounter }
