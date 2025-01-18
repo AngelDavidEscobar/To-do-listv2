@@ -6,7 +6,7 @@
   
     height: 64px;
     width: 80%;
-    margin-left: 40px;
+    margin-left: 0px;
     font-size: 24px;
     text-align: center;
     font-weight: 400;
@@ -23,3 +23,10 @@
   .TodoSearch:focus {
     outline-color: #61DAFA;
   }
+
+
+.container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

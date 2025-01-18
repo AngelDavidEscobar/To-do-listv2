@@ -12,10 +12,10 @@ import { TodoContext } from '../TodoContext'
     return (
       <>
         {completedTodos === totalTodos ? (
-          <h1>No tienes Todos por hacer</h1>
+          <h1>No tienes To-dos por hacer</h1>
         ) : (
           <h1>
-            Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> Todos
+            Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> To-dos
           </h1>
         )}
       </>
